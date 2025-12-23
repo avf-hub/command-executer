@@ -15,5 +15,11 @@
     "url": "https://github.com/avf-hub/command-executer/issues"
   },
   "homepage": "https://github.com/avf-hub/command-executer#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "inquirer": "^13.1.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.9"
+  }
 }
