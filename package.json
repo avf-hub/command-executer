@@ -1,0 +1,19 @@
+{
+  "name": "command-executer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avf-hub/command-executer.git"
+  },
+  "author": "Andrei Falkovskii",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avf-hub/command-executer/issues"
+  },
+  "homepage": "https://github.com/avf-hub/command-executer#readme",
+  "description": ""
+}
