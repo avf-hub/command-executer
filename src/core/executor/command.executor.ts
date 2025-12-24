@@ -6,7 +6,7 @@ export abstract class CommandExecutor<T> {
     protected constructor(private logger: IStreamLogger) {
     }
 
-    public async execute() {
+    public async execute(): Promise<void> {
         const input: T = await this.prompt();
         const command: ICommandExec = this.build(input);
         const stream: ChildProcessWithoutNullStreams = this.spawn(command);
